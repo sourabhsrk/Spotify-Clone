@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spotify - bysrk</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="Spotify-Logo.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="songlist">
+      <h1>Best hits of 2023</h1>
+      <div class="songItemsContainer">
+        <div id="div1" class="songItems">
+          <img class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="1" class="fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+        <div id="div2" class="songItems">
+          <img  class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="2" class="fa-solid fa-play songItemPlay"></i></span>
+          </span>
+        </div>
+        <div id="div3" class="songItems">
+          <img  class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="3" class="fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+        <div id="div4" class="songItems">
+          <img  class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="4" class="fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+        <div id="div5" class="songItems">
+          <img  class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="5" class="fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+        <div id="div6" class="songItems">
+          <img  class="coverImage" alt="album cover">
+          <span class="songname">Default Name</span>
+          <span class="songlistplay"><span class="timestamp">6:04<i id="6" class="fa-solid fa-play songItemPlay"></i></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" id="myProgressBar" value="0" min="0" max="100">
+    <div class="icons">
+      <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+      <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+      <i class="fa-solid fa-2x fa-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="Playing music.gif" alt="gif" width="40px" id="gif"><span class="currentPlay">Awaara Dogs Kuttey</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/409dc7bca2.js" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

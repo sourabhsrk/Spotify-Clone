@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #cbd0f6;
+}
+
+nav{
+  font-family: 'Rubik', sans-serif;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  height : 61px;
+  color: white;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  color: #4ae84a;
+}
+.brand img{
+  width: 60px;
+}
+
+.container{
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 12px;
+  padding: 20px;
+  background-image: url('instrument3.jpg');
+  background-size: 100%;
+
+}
+
+.bottom{
+  position: sticky;
+  height: 100px;
+  bottom: 0;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.songItems{
+   height: 50px;
+   background-color: white;
+   color: black;
+   width: 40%;
+   border-radius: 30px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.songItemsContainer{
+  margin: 50px 0;
+}
+.coverImage{
+  width: 45px;
+  margin: 0 23px;
+  border-radius: 30px;
+}
+
+.timestamp{
+  padding: 0 40px;
+}
+.timestamp i{
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.icons{
+  margin-top: 12px;
+}
+
+.icons i{
+  cursor:pointer;
+  margin: 0 5px;
+}
+
+#myProgressBar{
+  width: 80vw;
+  cursor: pointer;
+}
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  margin-top: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
